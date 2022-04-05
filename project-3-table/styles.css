@@ -1,0 +1,27 @@
+h1{
+    font-size: medium;
+    text-align: center;
+}
+td, th{
+    border: black solid 1px;
+    text-align: left;
+    line-height: 25px;
+    padding: 10px;
+}
+
+table{
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
+.shipping{
+    font-weight: bold;
+}
+
+th{
+    background-color: rgb(245, 244, 244);
+}
+
+.col-size{
+    width: 25%;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>A complex table</h1>
+    <table style="width:100%">
+        <tr>
+            <th colspan="3">
+                Invoice #123456789
+            </th>
+            <th>
+                14 January 2025
+            </th>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <div class="shipping"> Pay to:</div>
+                <div> Acme Billing Co.</div>
+                <div> 123 Main St. </div>
+                <div>Cityville, NA 12345</div>
+            </td>
+            <td colspan="2">
+                <div class="shipping"> Customer:</div>
+                <div>John Smith</div>
+                <div>321 Willow Way</div>
+                <div>Southeast Northwestershire, MA 54321</div>
+            </td>
+        </tr>
+
+        <tr>
+            <th class="col-size">
+                Name/Description
+            </th>
+            <th class="col-size">
+                Qty.
+            </th>
+            <th class="col-size">
+                @
+            </th>
+            <th class="col-size">
+                Cost
+            </th>
+        </tr>
+
+        <tr>
+            <td class="col-size">
+                Paperclips
+            </td>
+            <td class="col-size">
+                1000
+            </td>
+            <td class="col-size">
+                0.01
+            </td>
+            <td class="col-size">
+                10.00
+            </td>
+        </tr>
+
+        <tr>
+            <td class="col-size">
+                Staples (box)
+            </td>
+            <td class="col-size">
+                100
+            </td>
+            <td class="col-size">
+                1.00
+            </td>
+            <td class="col-size">
+                100.00
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="3">
+                Subtotal
+            </th>
+            <td class="col-size">
+                110.00
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                Tax
+            </th>
+            <td class="col-size">
+                8%
+            </td>
+            <td class="col-size">
+                8.80
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="3">
+                Grand Total
+            </th>
+            <td class="col-size">
+                $118.80
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

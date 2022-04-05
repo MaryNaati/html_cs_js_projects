@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competion Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div>
+
+        <div>
+            <header>Competition Entry</header>
+        </div>
+
+        <div id="competition">
+            Enter our annual competition.
+        </div>
+
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <label for="fname">First name<span class="requiredField">*</span></label>
+                    </div>
+                    <div>
+                        <input class="inputTextBox" type="text" id="fname" name="fname">
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <label for="lname">Last name<span class="requiredField">*</span></label>
+                    </div>
+                    <div>
+                        <input class="inputTextBox" type="text" id="lname" name="lname">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="text" id="email" name="name">
+                </div>
+            </div>
+
+            <div class="input-sections">
+                Previous Participant?<span class="requiredField">*</span>
+                <div>
+                    <input type="radio" id="html" name="yes-no" value="HTML">
+                    <label for="html">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="css" name="yes-no" value="CSS">
+                    <label for="css">No</label>
+                </div>
+            </div>
+
+            <div class="input-sections">
+                <label for="date">Date of birth</label>
+                <div>
+                    <input class="inputTextBox1" type="text" id="date" name="date">
+                </div>
+            </div>
+
+            <div class="input-sections">
+                Gender <span class="requiredField">*</span>
+                <div>
+                    <input type="radio" id="html" name="male-female" value="HTML">
+                    <label for="male-female">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="css" name="male-female" value="CSS">
+                    <label for="male-female">Female</label>
+                </div>
+            </div>
+
+            <div class="input-sections">
+                <label for="height">Height</label>
+                <div>
+                    <input class="inputTextBox1" type="text" id="height" name="height">
+                </div>
+            </div>
+
+            <div class="input-sections">
+                <label for="weight">Weight</label>
+                <div>
+                    <input class="inputTextBox1" type="text" id="weight" name="weight">
+                </div>
+            </div>
+
+            <div>
+                <label for="question">Questions/Comments</label>
+            </div>
+            <div>
+                <textarea id="question" name="question" rows="4" cols="50"></textarea>
+            </div>
+
+            <div id="email-note">
+                <input type="checkbox" id="update" name="update" value="update">
+                <label for="update"> I would like to receive email updates</label>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

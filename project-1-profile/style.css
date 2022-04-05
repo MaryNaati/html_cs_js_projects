@@ -1,0 +1,51 @@
+.main-brand{
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 60px 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  img {
+    border-radius: 50%;
+  }
+.section-title{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large;
+    margin: 15px 0;
+    text-align: center;
+}
+.section-text{
+    line-height: 20px;
+
+
+}
+.section-info{
+    word-spacing: 30px;
+    line-height: 2.5;
+    font-size: 20;
+    font-weight: bold;
+}
+.section-sub{
+    font-size: medium;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+}
+.section{
+    border: 1px whitesmoke;
+    padding: 5px;
+}
+.quarter{
+    width: 25%;
+}
+.half{
+    width: 50%
+}
