@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Budget</title>
+</head>
+
+<body>
+    <!--Use rows and columns-->
+    <div class="container">
+        <!--Container helps center columns horizonatlly-->
+        <div class="row mb-3">
+            <!--mb = margin-bottom-->
+            <div class="col-12">
+                <!--There are 12 columns across a web page-->
+                <div class="row mt-4">
+                    <!--mt = margin-top-->
+                    <div class="col-12">
+                        <!--There are 12 columns across a web page-->
+                        <div class="text-center">
+                            <h2>Budget</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-12">
+                    <div id="budgetTotals">
+                        Total Monthly Income: <span id="totalMonthlyIncome"></span>
+                        <!--span is CSS code to be triggered-->
+                    </div>
+                    <div id="budgetTotals">
+                        Total Monthly Expenses:<span id="totalMonthlyIncome"></span>
+                    </div>
+                    <div id="budgetTotals">
+                        Total Monthly Savings:<span id="totalMonthlyIncome"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="=col-5">
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="text-center">
+                        <div class="budgetType">
+                            Monthly Income
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <div class="budgetType">
+                            <div id="inputInfo">
+                                Company Name:
+                            </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                            Monthly Expenses
+                        </div>
+
+                    </div>
+
+                    <div id="inputInfo">
+                        Income Total:
+                    </div>
+
+                    <button class="btn btn-primary" onclick="addExpense()" type="button">add</button>
+
+
+                    <div id="inputInfo">
+                        Type of Expense:
+                    </div>
+                    <div id="inputInfo">
+                        Cost:
+                    </div>
+
+                    <button class="btn btn-primary" onclick="addExpense()" type="button">add</button>
+
+                </div>
+</body>
+<script src="script.js">
+
+</script>
+
+</html>

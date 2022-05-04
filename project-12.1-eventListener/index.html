@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!---Create a div with "Hello World" as content--->
+
+    <div>Hello World!</div>
+
+    <!---Create a button that as you click on it, 
+        it should change the content of your div to 
+        "You cliecked on the button."-->
+    <button id="demo" onclick="myFunction()">Click me (IF YOU DARE!)</button>
+
+</body>
+<script>
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "RAWR! JK! <br> YAY! You clicked on the button!";
+}
+
+</script>
+
+</html>
